@@ -1,0 +1,60 @@
+body {
+    background-image: url(background-2011768_960_720.jpg);
+}
+h1 {
+    color: whitesmoke;
+    text-shadow: 2px 2px purple;
+    background-color: whitesmoke;
+ 
+}
+img{
+    border-radius: 100%;
+    height: 50%;
+    width: 25%
+}
+#row2{ 
+    border-style: solid;
+    color: whitesmoke;
+    text-shadow: 2px 2px purple;
+    display: inline-flex;
+    margin: 0px;
+    
+}
+#divx3{
+    border-style: solid;
+    color: whitesmoke;
+    margin: 0px;
+    float: initial; 
+    text-align: center;
+    text-shadow: 2px purple;
+    
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+.grid-item{
+    border: 1px solid whitesmoke;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center
+}
+
+#movies{
+    grid-row: 1;
+    border:solid purple;
+    text-shadow: 2px 2px purple;
+}
+.links{
+    height: 25%;
+    width: 25%;
+}
+#music{
+    border:solid purple;
+    text-shadow: 2px 2px purple;
+}
+#food{
+    border:solid purple;
+    text-shadow: 2px 2px purple;
+}
